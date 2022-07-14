@@ -9,7 +9,7 @@
 6 Instantiate the prediction of our model to a variable used for the output.
 7 Append each concatenaded string of prediction, true label (actual species), prediction accuracy & actual data to a list used for the output.
 
-##Accumulate Accuracies Method:
+## Accumulate Accuracies Method:
 1 Remove the 2 first and last results of our prediction accuracies to eleminate the chance of data noice. (bad data which pollute the predictions and accuracies)
 2 Accumulate the remaining accuracies and divide by the frequenzy to get the average accuracy.
 -
